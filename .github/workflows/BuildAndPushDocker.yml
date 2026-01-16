@@ -3,6 +3,9 @@ on:
   push:
     branches: [ "master" ]
 
+env:
+  OWNER: mikkelrlarsen
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/helloworld:latest
+          tags: ghcr.io/${{ env.OWNER }}/helloworld:latest
