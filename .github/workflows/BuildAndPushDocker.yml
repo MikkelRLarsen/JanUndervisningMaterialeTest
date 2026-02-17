@@ -32,7 +32,6 @@ jobs:
       - name: Publish .NET project as container
         working-directory: ./CiCD
         run: |
-          dotnet publish -c Release -t:PublishContainer \
+         dotnet publish -c Release -t:PublishContainer \
             -p:ContainerRegistry=ghcr.io \
-            -p:ContainerImageName=${{ env.IMAGE }} \
             --os linux --arch amd64

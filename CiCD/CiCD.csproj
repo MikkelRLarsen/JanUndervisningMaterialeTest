@@ -13,5 +13,9 @@
   </ItemGroup>
   <PropertyGroup>
 		<EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+		<ContainerRepository>ghcr.io/mikkelrlarsen/helloworld</ContainerRepository>
+		<ContainerImageTags>latest</ContainerImageTags>
   </PropertyGroup>
+
+
 </Project>
