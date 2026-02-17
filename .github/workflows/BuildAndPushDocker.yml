@@ -5,7 +5,7 @@ on:
 
 env:
   OWNER: mikkelrlarsen
-  IMAGE: ghcr.io/${{ env.OWNER }}/helloworld:latest
+  IMAGE: ghcr.io/mikkelrlarsen/helloworld:latest
 
 jobs:
   build:
