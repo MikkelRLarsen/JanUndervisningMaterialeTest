@@ -35,4 +35,4 @@ jobs:
           dotnet publish -c Release -t:PublishContainer \
             -p:ContainerRegistry=ghcr.io \
             -p:ContainerImageName=${{ env.IMAGE }} \
-            --os linux --arch amd64,arm64
+            --os linux --arch amd64
