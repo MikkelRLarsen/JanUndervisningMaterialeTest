@@ -12,6 +12,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CiCD.ServiceDefaults\CiCD.ServiceDefaults.csproj" />
+  </ItemGroup>
 	
   <PropertyGroup Condition="'$(Configuration)'=='Release'">	
 		<ContainerRepository>ghcr.io/mikkelrlarsen/helloworld</ContainerRepository>

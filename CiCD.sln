@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36203.30 d17.14
+VisualStudioVersion = 17.14.36203.30
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCD", "CiCD\CiCD.csproj", "{C0A49E1F-D4C3-40A1-983B-03F5E4A533FA}"
 EndProject
@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCD.AppHost", "CiCD.AppHost\CiCD.AppHost.csproj", "{5EDCE4A6-E247-42D4-B665-3C74E6E138FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiCD.ServiceDefaults", "CiCD.ServiceDefaults\CiCD.ServiceDefaults.csproj", "{59D73816-997C-D54B-508E-04ACEF9D0B2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,14 @@ Global
 		{C0A49E1F-D4C3-40A1-983B-03F5E4A533FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0A49E1F-D4C3-40A1-983B-03F5E4A533FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0A49E1F-D4C3-40A1-983B-03F5E4A533FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDCE4A6-E247-42D4-B665-3C74E6E138FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDCE4A6-E247-42D4-B665-3C74E6E138FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDCE4A6-E247-42D4-B665-3C74E6E138FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDCE4A6-E247-42D4-B665-3C74E6E138FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59D73816-997C-D54B-508E-04ACEF9D0B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59D73816-997C-D54B-508E-04ACEF9D0B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59D73816-997C-D54B-508E-04ACEF9D0B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59D73816-997C-D54B-508E-04ACEF9D0B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
